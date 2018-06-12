@@ -15,5 +15,5 @@
     <fragment
         android:id="@+id/notificationFragment"
         android:name="mobi.pooh3.navigationinbottomnavigation.notification.NotificationFragment"
-        android:label="DashboardFragment"/>
+        android:label="NotificationFragment"/>
 </navigation>
