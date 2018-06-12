@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/mobile_navigation.xml"
+            app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="mobi.pooh3.navigationinbottomnavigation.home.HomeFragment"
+        android:label="HomeFragment"/>
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="mobi.pooh3.navigationinbottomnavigation.dashboad.DashboardFragment"
+        android:label="DashboardFragment"/>
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="mobi.pooh3.navigationinbottomnavigation.notification.NotificationFragment"
+        android:label="DashboardFragment"/>
+</navigation>
