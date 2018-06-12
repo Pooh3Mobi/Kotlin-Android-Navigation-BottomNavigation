@@ -25,7 +25,7 @@ android {
 }
 
 dependencies {
-    def navigationVersion = "1.0.0-alpha01"
+    def navigationVersion = "1.0.0-alpha02"
 
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$rootProject.kotlinVersion"
@@ -42,4 +42,6 @@ dependencies {
 
     implementation 'android.arch.navigation:navigation-fragment:' + navigationVersion
     implementation 'android.arch.navigation:navigation-ui:' + navigationVersion
+    implementation 'android.arch.navigation:navigation-fragment-ktx:' + navigationVersion
+    implementation 'android.arch.navigation:navigation-ui-ktx:' + navigationVersion  // use -ktx for Kotlin
 }
